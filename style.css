@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+
+/* Primary */
+--Blue-200: hsl(193, 38%, 86%);
+--Green-300: hsl(150, 100%, 66%);
+
+/* Neutral */
+--Blue-600: hsl(217, 19%, 38%);
+--Blue-900: hsl(217, 19%, 24%);
+--Blue-950: hsl(218, 23%, 16%);
+
+/* text */
+
+--font-size: 28px;
+
+
+
+}
+
+
+*{
+    background-color: var(--Blue-950);
+    font-size: var(--font-size);
+    font-family: "Manrope", sans-serif;
+    color: var(--Blue-200);
+    font-weight: 800;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: auto;
+}
+
+
+.main-cont{
+    position: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 16px;
+    margin: 15px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: var(--Blue-900);
+}
